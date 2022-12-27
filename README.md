@@ -107,3 +107,5 @@ review_id:
 ```
 http://127.0.0.1/api/v1/titles/{title_id}/reviews/{review_id}/
 ```
+### Автор проекта
+Сергей Самойлов, 2022.

@@ -5,22 +5,17 @@ from datetime import timedelta
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = False
 
-# ALLOWED_HOSTS = [
-#     '*',
-#     'localhost',
-#     '127.0.0.1',
-#     ]
-
-ALLOWED_HOSTS = ['*']
-
-# ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    '*',
+    'localhost',
+    '127.0.0.1',
+    ]
 
 # Application definition
 
