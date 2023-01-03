@@ -40,6 +40,10 @@ docker-compose down -v
 ```
 docker-compose exec web python manage.py migrate
 ```
+## Собрать статику
+```
+docker-compose exec web python manage.py collectstatic
+```
 ## При необходимости создать Суперюзера
 ```
 docker-compose exec web python manage.py createsuperuser
